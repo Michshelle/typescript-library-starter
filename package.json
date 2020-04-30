@@ -35,6 +35,9 @@
     "postinstall": "ts-node tools/init",
     "travis-deploy-once": "travis-deploy-once"
   },
+  "repository": {
+    "url": "https://github.com/Michshelle/typescript-library-starter.git"
+  },
   "lint-staged": {
     "{src,test}/**/*.ts": [
       "prettier --write",
